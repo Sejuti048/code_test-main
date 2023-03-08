@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal D Code Test</title>
+    <style>
+        table {
+            border-collapse: collapse; 
+            width: 90%;
+        }
+  
+        th, td {
+        border: 1px solid #999999;
+        margin: 5px;
+        text-align: left;
+        padding: 5px 5px;
+        }
+
+     
+        th {
+            border: 1px solid #999999;
+            background: #e8e8e8;
+            color: black;
+            text-align: left;
+            padding: 5px 5px;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        th.desc::before {
+        content: "\25bc";
+      }
+
+        button {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 12px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+    </style>
+</head>
+
+<body>
+    <table id="people-table" aria-describedby="people-table">
+        <thead>
+            <tr>
+                <th data-col="name">Name</th>
+                <th data-col="height">Height</th>
+                <th data-col="dob">Date of Birth</th>
+                <th data-col="hobby">Hobby</th>
+                <th data-col=" "></th> 
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
